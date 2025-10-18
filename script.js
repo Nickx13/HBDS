@@ -122,7 +122,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Oct 22, 2023 00:00:00').getTime(),
+let countDown = new Date('Oct 19, 2025 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -215,7 +215,7 @@ const _slideEmpat = function () {
 
   continueBtn.addEventListener('click', function () {
     // Redirect to WhatsApp with your number
-    window.location.href = 'https://wa.me/918668068159';
+    window.location.href = 'https://wa.me/918668066121';
   });
 };
 
@@ -562,4 +562,5 @@ function confetti() {
   });
 
   if (!onlyOnKonami) poof();
+
 };
